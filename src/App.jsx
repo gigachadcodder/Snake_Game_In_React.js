@@ -124,7 +124,7 @@ function App() {
   };
 
   useEffect(() => {
-    let interval = setInterval(updateGame, 200);
+    let interval = setInterval(updateGame, 250);
     return () => clearInterval(interval);
   }, [snake, direction]);
 
